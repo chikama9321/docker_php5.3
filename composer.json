@@ -1,0 +1,6 @@
+{
+    "name": "docker/php5.3",
+    "require": {
+        "vlucas/phpdotenv": "^2.0"
+    }
+}
