@@ -3,5 +3,7 @@ services:
   php:
     build: ./docker/php
     tty: true
+    ports:
+      - "81:80"
     volumes:
     - ./:/var/www/html
